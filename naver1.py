@@ -239,7 +239,7 @@ def analyze_reviews(api_key, reviews_text, product_name):
        
         # 결과 파싱
         content = response.choices[0].message.content.strip()
-        st.write("응답 내용 원본:\n", content)
+        # st.write("응답 내용 원본:\n", content)
 
         if not content:
             st.error("ChatGPT 응답이 비어 있습니다.")
