@@ -432,7 +432,7 @@ def main():
 st.markdown("""
 <style>
 .ad-banner-container {
-    position: relative;
+    position: fixed;
     left: 0;
     width: 100%;
     background-color: white;
@@ -494,7 +494,7 @@ st.markdown("""
 <div class="ad-banner-container">
     <div class="ad-banner-content">
         <a href="https://www.coupang.com/vp/products/6661512526?itemId=21474551956&vendorItemId=88528821581&q=%EB%83%89%EB%8F%99%EA%B9%80%EB%B0%A5&itemsCount=36&searchId=804e976b9307816&rank=1&searchRank=1&isAddedCart=" target="_blank">
-            <img src="//thumbnail8.coupangcdn.com/thumbnails/remote/320x320ex/image/retail/images/787750576328567-849383dc-97b2-4c51-b797-8f0a02f66dec.jpg" alt="Advertisement Banner" class="ad-banner-image">
+            <img src="https://thumbnail8.coupangcdn.com/thumbnails/remote/320x320ex/image/retail/images/787750576328567-849383dc-97b2-4c51-b797-8f0a02f66dec.jpg" alt="Advertisement Banner" class="ad-banner-image">
         </a>
         <div class="ad-banner-text">
             <h4> 바바김밥 야채김밥 (냉동)</h4>
