@@ -432,7 +432,7 @@ def main():
 st.markdown("""
 <style>
 .ad-banner-container {
-    position: fixed;
+    position: relative;
     left: 0;
     width: 100%;
     background-color: white;
