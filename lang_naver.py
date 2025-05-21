@@ -440,22 +440,22 @@ def main():
     conn.close()
 
 # 페이지 하단에 광고 배너 추가
-st.markdown("""
-<div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: white; border-top: 1px solid #ddd; padding: 10px 0; text-align: center; z-index: 999;">
-    <div style="display: flex; align-items: center; max-width: 800px; margin: 0 auto; padding: 0 15px;">
-        <a href="https://www.coupang.com/vp/products/6661512526?itemId=21474551956&vendorItemId=88528821581&q=%EB%83%89%EB%8F%99%EA%B9%80%EB%B0%A5&itemsCount=36&searchId=804e976b9307816&rank=1&searchRank=1&isAddedCart=" target="_blank">
-            <img src="https://thumbnail8.coupangcdn.com/thumbnails/remote/320x320ex/image/retail/images/787750576328567-849383dc-97b2-4c51-b797-8f0a02f66dec.jpg" alt="Advertisement Banner" style="max-width: 200px; margin-right: 15px;">
-        </a>
-        <div style="text-align: left; color: #333;">
-            <h4 style="margin: 0; color: #1a73e8; font-size: 16px;">바바김밥 야채김밥 (냉동)</h4>
-            <p style="margin: 5px 0; font-size: 14px;">다채로운 색감이 예쁜 야채 김밥이에요.</p>
-            <div style="width: 100%; height: 3px; background-color: #f0f0f0; margin-top: 8px; position: relative;">
-                <div style="height: 100%; width: 60%; background-color: #ff0000; position: absolute; left: 0;"></div>
-            </div>
-        </div>
-    </div>
-</div>
-""", unsafe_allow_html=True)
+# st.markdown("""
+# <div style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: white; border-top: 1px solid #ddd; padding: 10px 0; text-align: center; z-index: 999;">
+#     <div style="display: flex; align-items: center; max-width: 800px; margin: 0 auto; padding: 0 15px;">
+#         <a href="https://www.coupang.com/vp/products/6661512526?itemId=21474551956&vendorItemId=88528821581&q=%EB%83%89%EB%8F%99%EA%B9%80%EB%B0%A5&itemsCount=36&searchId=804e976b9307816&rank=1&searchRank=1&isAddedCart=" target="_blank">
+#             <img src="https://thumbnail8.coupangcdn.com/thumbnails/remote/320x320ex/image/retail/images/787750576328567-849383dc-97b2-4c51-b797-8f0a02f66dec.jpg" alt="Advertisement Banner" style="max-width: 200px; margin-right: 15px;">
+#         </a>
+#         <div style="text-align: left; color: #333;">
+#             <h4 style="margin: 0; color: #1a73e8; font-size: 16px;">바바김밥 야채김밥 (냉동)</h4>
+#             <p style="margin: 5px 0; font-size: 14px;">다채로운 색감이 예쁜 야채 김밥이에요.</p>
+#             <div style="width: 100%; height: 3px; background-color: #f0f0f0; margin-top: 8px; position: relative;">
+#                 <div style="height: 100%; width: 60%; background-color: #ff0000; position: absolute; left: 0;"></div>
+#             </div>
+#         </div>
+#     </div>
+# </div>
+# """, unsafe_allow_html=True)
 
 # 애플리케이션 실행
 if __name__ == "__main__":
